@@ -131,6 +131,6 @@ export const POST = async (request: NextRequest) => {
 
   return NextResponse.json({
     ok: true,
-    message: "You has enrolled a course successfully",
+    message: "You have enrolled a course successfully",
   });
 };
